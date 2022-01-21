@@ -11,8 +11,19 @@ namespace Shared
         public const int SERVER_PORT = 10000;
         public const int SERVICE_PORT = 10001;
 
-        public static string ValidTokenRequest { get; set; } = "Give me a token please";
-        public static string InvalidTokenRequest { get; set; } = "Give me a token immediate";
-        public static string Token { get; set; } = "SOMETOKEN123456";
+        public const string Admin = "Admin";
+        public const string AdminPass = "norealpassword123_";
+
+        public const string User = "User";
+        public const string UserPass = "usernorealpassword123_";
+
+        public const string ServiceName = "DemoService";
+        public const string AuthService = "AuthService";
+
+        public const string INVALIDTOKEN = "ERROR - invalid token";
+        public const string TokenSignKey = "TWh5CVi0SSoo4CXc"; //this key is not real
+
+        public const string ReadPermission = "READ_PERMISSION";
+        public const string WritePermission = "WRITE_PERMISSION";
     }
 }
